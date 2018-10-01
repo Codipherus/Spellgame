@@ -6,12 +6,8 @@ using System.Threading.Tasks;
 
 namespace GameChallenge
 {
-    class Program
+    class THIS_IS_CODYS_GAME
     {
-        static void Main(string[] args)
-        {
-            ProgramUI program = new ProgramUI();
-            program.Run();
-        }
+        //just a note to separate my file from class game
     }
 }

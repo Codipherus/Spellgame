@@ -6,12 +6,10 @@ using System.Threading.Tasks;
 
 namespace GameChallenge
 {
-    class Program
+    abstract class Character
     {
-        static void Main(string[] args)
-        {
-            ProgramUI program = new ProgramUI();
-            program.Run();
-        }
+        public string Name { get; set; }
+        public int Health { get; set; }
+        public bool IsAlive { get; set; }
     }
 }

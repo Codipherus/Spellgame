@@ -42,8 +42,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Character.cs" />
+    <Compile Include="Enemy.cs" />
+    <Compile Include="EnemyRepository.cs" />
+    <Compile Include="Hero.cs" />
+    <Compile Include="HeroRepository.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="ProgramUI.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="THIS_IS_CODYS_GAME.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
